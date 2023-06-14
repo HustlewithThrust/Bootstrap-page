@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <title>MAKBlogs</title>
+</head>
+
+<style>
+    body {
+        background-image: linear-gradient(white, rgb(220, 219, 219));
+    }
+
+
+    .marg {
+        margin-left: 15px !important;
+    }
+
+    .search-bar {
+        height: 35px;
+        margin-top: 5px;
+        width: 15rem !important;
+        border-radius: 15px !important;
+
+    }
+
+    .search {
+        margin-left: 20px !important;
+    }
+
+    .cardc {
+        margin-top: 30px !important;
+
+    }
+
+    .read-card {
+        text-decoration: none;
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .lbtn {
+        height: 3rem;
+        width: 7rem;
+        border: none !important;
+        border-radius: 21px !important;
+    }
+
+    .lbtn:hover {
+        background-color: rgb(180, 180, 180) !important;
+        border: 1px solid black !important;
+        color: black;
+    }
+
+    .c-item {
+        height: 480px;
+    }
+
+    .c-img {
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(0.8);
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark py-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">OTS BLOGS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <div class="container">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown marg">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                News
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Vaccancy</a></li>
+                                <li><a class="dropdown-item" href="#">Politics</a></li>
+                                <li><a class="dropdown-item" href="#">Gadgets</a></li>
+                                <li><a class="dropdown-item" href="#">Business</a></li>
+                                <li><a class="dropdown-item" href="#">Sports</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown marg">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Upcoming Events
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">UI/UX Course</a></li>
+                                <li><a class="dropdown-item" href="#">Hackathon 2023</a></li>
+                                <li><a class="dropdown-item" href="#">Bootcamps</a></li>
+                                <li><a class="dropdown-item" href="#">Fresher Internships</a></li>
+                                <li><a class="dropdown-item" href="#">Festive discounts</a></li>
+                                <li><a class="dropdown-item" href="#">Share & Earn</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown marg">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Jobs
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">UI/UX</a></li>
+                                <li><a class="dropdown-item" href="#">Web Debeloper</a></li>
+                                <li><a class="dropdown-item" href="#">Software Developer</a></li>
+                                <li><a class="dropdown-item" href="#">Data Analyst</a></li>
+                                <li><a class="dropdown-item" href="#">Android Developer</a></li>
+                                <li><a class="dropdown-item" href="#">Sales & Marketing</a></li>
+                                <li><a class="dropdown-item" href="#">Customer Support</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <form class="d-flex search">
+                                <input class="form-control-sm me-2 search-bar " type="search" placeholder="Search"
+                                    aria-label="Search">
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Crousal -->
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active c-item">
+                <img src="https://img.freepik.com/free-psd/realistic-banner-education-template_23-2149359685.jpg?w=996&t=st=1686762245~exp=1686762845~hmac=29a24d60cab0e313e6b0517b5495c59d838c19429a42ae5fe5653cf56e9b146a"
+                    class="d-block w-100 c-img" alt="...">
+            </div>
+            <div class="carousel-item c-item">
+                <img src="https://img.freepik.com/premium-vector/businessman-pulling-white-curtain-with-text-we-are-hiring-business-recruiting-design-concept_185038-618.jpg?w=900"
+                    class="d-block w-100 c-img" alt="...">
+            </div>
+            <div class="carousel-item c-item">
+                <img src="https://img.freepik.com/free-vector/sphere-grid-wave-with-binary-code-ai-artificial-intelligence-logo-hand-machine-learning-concept_127544-855.jpg?w=826&t=st=1686762358~exp=1686762958~hmac=57921a27b541826395e0678c418c8e6bf7b483f604b4d8b7172a9323bdfb9356"
+                    class="d-block w-100 c-img" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- cards -->
+    <div class="container mx-auto cardc row g-4">
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card " style="width: 18rem;">
+                <img src="https://img.freepik.com/free-photo/close-up-person-working-home-night_23-2149090964.jpg?w=826&t=st=1686753612~exp=1686754212~hmac=65fa8dbf0504802a6be922867b32833d65754aa104eed97615040cca99ba70d4"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, voluptatibus
+                        nisi! Quibusdam soluta maxime incidunt ad rem ex </p>
+                    <a href="#" class="read-card">Read more...</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card " style="width: 18rem;">
+                <img src="https://img.freepik.com/free-vector/breaking-news-streaming_23-2148514239.jpg?w=826&t=st=1686752837~exp=1686753437~hmac=28caa2f5ceec22ef26fdd29d8250912df1e2c49a56cce8aa0b64804ac59b89a2"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, voluptatibus
+                        nisi! Quibusdam soluta maxime incidunt ad rem ex.</p>
+                    <a href="#" class="read-card">Read more...</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card " style="width: 18rem;">
+                <img src="https://img.freepik.com/free-photo/worker-reading-news-with-tablet_1162-83.jpg?w=826&t=st=1686753796~exp=1686754396~hmac=c419d9bb8484b79ca22f25f68321745ecf6dbc3b4391355324cb6292ef6e2a7a"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, voluptatibus
+                        nisi! Quibusdam soluta maxime incidunt ad rem ex.</p>
+                    <a href="#" class="read-card">Read more...</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card " style="width: 18rem;">
+                <img src="https://img.freepik.com/free-vector/realistic-virtual-headset-augmented-reality_52683-52869.jpg?w=740&t=st=1686753060~exp=1686753660~hmac=dbfdd779ae81a2b09ae62fdd4b7daaa974ad9b08537b65377430818e37ed5fcc"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, voluptatibus
+                        nisi! Quibusdam soluta maxime incidunt ad rem ex.</p>
+                    <a href="#" class="read-card">Read more...</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card " style="width: 18rem;">
+                <img src="https://img.freepik.com/free-vector/cute-shiba-inu-dog-robot-cartoon-vector-icon-illustration-animal-technology-icon-concept-isolated_138676-7781.jpg?w=740&t=st=1686753506~exp=1686754106~hmac=c239d31eb0c4de7fafdddcf6f5d15575c1a338574c96c0b2f4ff4bf8daa285b2"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, voluptatibus
+                        nisi! Quibusdam soluta maxime incidunt ad rem ex.</p>
+                    <a href="#" class="read-card">Read more...</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card " style="width: 18rem;">
+                <img src="https://img.freepik.com/free-vector/smm-online-service-platform-social-media-marketing-advertising-business-through-social-network-online-course-isolated-flat-illustration_613284-3387.jpg?w=740&t=st=1686752899~exp=1686753499~hmac=9a7610a13c5d63d57f4687ef05dd6743fb6e233cff03af11024f35b32a757a7c"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, voluptatibus
+                        nisi! Quibusdam soluta maxime incidunt ad rem ex.</p>
+                    <a href="#" class="read-card">Read more...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center mt-5">
+        <button type="button" class="btn btn-primary bg-dark lbtn  " data-toggle="button" aria-pressed="false"
+            autocomplete="off">
+            Show more
+        </button>
+    </div>
+
+
+    <!-- footer -->
+    <footer class="bg-dark py-5 mt-5">
+        <div class="container text-light text-center">
+            <p class="display-5 mb-3">MAK BLOGS </p>
+            <small class="text-white-50">&copy; 2023 Copyright by Minhaz Ashraf. All rights rsesrved</small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
